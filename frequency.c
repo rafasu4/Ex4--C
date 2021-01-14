@@ -152,7 +152,7 @@ int printWordLecDown(struct Node* root){
     }
     //if the node has children - fo deeper
     if(root->isLeaf == TRUE){
-        printf("%c\t%d\n", root->letter, root->frequency);
+        printf("%c %d\n", root->letter, root->frequency);
         root->isLeaf = FALSE;
         ans = root->frequency;
         root->counter -= root->frequency;
