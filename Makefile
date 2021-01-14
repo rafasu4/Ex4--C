@@ -1,7 +1,7 @@
 CC = gcc
 FLAGS = -Wall -g
 
-all: frequency
+all: main
 
 main: frequency.c
 	$(CC) $(FLAGS) frequency.c -o frequency
